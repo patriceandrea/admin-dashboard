@@ -79,7 +79,7 @@ const Tables = () => {
         <TableBody>
           {rows.map((row) => (
             <TableRow
-              key={row.name}
+              key={row.id}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
               <TableCell className='tableCell'>{row.id}</TableCell>
