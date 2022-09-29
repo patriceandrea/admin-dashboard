@@ -7,7 +7,7 @@ import Widget from '../../components/widget/Widgets';
 import Tables from '../../components/table/Table';
 import './home.scss'
 
-const Home = () => {
+const Home = ({ aspect }) => {
   return (
     <div className='home'>
       <Sidebar />
@@ -21,7 +21,7 @@ const Home = () => {
         </div>
         <div className='charts'>
           <Featured />
-          <Chart />
+          <Chart title="last 6 months (Revenue)" aspect={2 / 1} />
         </div>
         <div className='listContainer'>
           <div className='listTitle'>Latest Transactions</div>
