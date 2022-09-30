@@ -18,7 +18,7 @@ function App() {
   const { darkMode } = useContext(DarkModeContext);
 
   return (
-    <div className={darkMode ? "app dark" : "app"}>
+    <div className={darkMode ? "app dark" : "app "}>
       <BrowserRouter>
         <Routes>
           <Route path="/">
