@@ -56,9 +56,15 @@
       border: none;
 
       .viewButton,
-      .deleteButton {
+      .deleteButton,
+      .cellWithStatus {
         color: gray;
+        border: none;
       }
     }
+  }
+
+  input {
+    background-color: #111;
   }
 }
